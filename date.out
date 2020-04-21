@@ -1,0 +1,30 @@
+Coada 0 este:(1,1) 
+Coada 1 este:(1,2) (2,3) 
+Coada 2 este:(1,2) (3,4) (5,6) 
+
+Stiva 0 este:(1,2) (3,4) (5,6) 
+Stiva 1 este:(1,2) (2,3) 
+Stiva 2 este:(1,1) 
+
+Coada 1 :(11,22) (33,44) 
+Coada 2 :(11,22) (33,44) 
+Coada in care am facut push este: (11,22) (33,44) (23,57) 
+Pop1 (11,22)
+Pop2 (33,44)
+Pop3 (23,57)
+
+
+Stiva in care am facut push este: (1,2) (3,4) (5,6) (23,57) 
+Stiva in care am facut push este: (1,2) (2,3) (23,57) 
+Din stiva (1,2) (3,4) (5,6) (23,57) 
+ scoatem (23,57)
+Din stiva (1,2) (3,4) (5,6) 
+ scoatem (5,6)
+Din stiva (1,2) (2,3) (23,57) 
+ scoatem (23,57)
+Din stiva (1,1) 
+ scoatem (1,1)
+Din stiva 
+ scoatem 
+ Empty error raised: You are trying to erase from an empty list 
+
